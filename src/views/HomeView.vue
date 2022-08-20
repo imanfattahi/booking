@@ -56,19 +56,4 @@ import FlightBooking from './../components/flight-booking.vue'
   .logo {
     width: 120px;
   }
-  .booking-wrapper{
-    margin: 2vh 0;
-    height: 96vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-  .plane-icon {
-    max-width: 150px;
-    height: auto;
-  }
-  .flight-list {
-    .flight-item {
-      margin-bottom: 1em;
-    }
-  }
 </style>
