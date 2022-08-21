@@ -1,26 +1,26 @@
-# Booking Frontend
-Vue 3 + Vuex + Cypress
+# Booking Server
+Nodejs + Express
 
 ### Installation:
-```sh
-npm i
-```
+`npm i`
 
-### Run App:
-```sh
-npm run dev
-```
+### Run Server:
+`npm run start`
 
-### Unit Test
-```sh
-npm run test:unit
-```
+### Routes:
+#### Get promotions:
+`http://127.0.0.1:3000/api/v1/promotions/priceoffers/ond/:origin/:destination`
+###### Call this url to get all data from server, no filter is implemented on the backend side
 
-### E2E Test
-```sh
-npm run build
-npm run test:e2e
-```
+#### Generate JSON file with test data:
+`http://127.0.0.1:3000/api/v1/generate-promotion-json`
+
+## Mock Data
+##### Some Origins:
+Berlin, Hamburg, Munich
+
+##### Some Destinations:
+Frankfurt, Stuttgart, Dusseldorf, Dortmund      
 
 ## Author
 Iman
