@@ -6,7 +6,6 @@ import axios from 'axios';
 
 import "bootstrap"
 import './assets/main.scss'
-import 'vue-next-select/dist/index.min.css'
 
 // Create Axios client
 const $http = axios.create({
