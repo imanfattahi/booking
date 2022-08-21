@@ -9,7 +9,7 @@ import './assets/main.scss'
 
 // Create Axios client
 const $http = axios.create({
-  baseURL: 'http://127.0.0.1:3000',
+  baseURL: import.meta.env.VITE_APP_BASE_URL || 'http://127.0.0.1:3000',
   headers: {}
 });
 
